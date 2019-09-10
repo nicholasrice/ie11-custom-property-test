@@ -31,3 +31,14 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+}
+
+.bar {
+    --background-color: #FF0000;
+}
+
+.foo {
+    background: var(--background-color);
+}
